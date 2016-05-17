@@ -72,6 +72,7 @@ public class linkedlist {
 		return new_root_node;
 		
 	}
+	//Delete a node
 	public static node delete_node(node root_node,int place){
 		int number_of_nodes = number_of_nodes_count(root_node);
 		if(place>number_of_nodes){

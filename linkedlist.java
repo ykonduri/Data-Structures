@@ -60,6 +60,7 @@ public class linkedlist {
 		root_node = linkedlist.add_node_first(root_node,30);
 		linkedlist.add_node(root_node,4,40);
 		linkedlist.print_linked_list(root_node);
+		//Output for the program: 30, 11, 10, 40, 12, 20, 22
 	}
 
 }
